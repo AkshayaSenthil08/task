@@ -148,7 +148,7 @@ const Dashboard = () => {
 
       <input
         className="form-control mb-3 card shadow-sm p-4"
-        placeholder="🔍 Search tasks"
+        placeholder="Search tasks"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
