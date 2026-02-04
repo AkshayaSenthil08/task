@@ -8,7 +8,7 @@ const ProfileCard = ({ user }) => {
       borderRadius: "8px",
       marginBottom: "20px"
     }}>
-      <h3>👤 Profile</h3>
+      <h3> Profile</h3>
       <p><b>Name:</b> {user.name}</p>
       <p><b>Email:</b> {user.email}</p>
     </div>

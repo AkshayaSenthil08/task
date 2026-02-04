@@ -153,7 +153,6 @@ const Dashboard = () => {
         onChange={(e) => setSearch(e.target.value)}
       />
 
-      {/* TASK LIST */}
       {filteredTasks.map(task => (
         <div key={task._id} className="card mb-2">
           <div className="card-body">
